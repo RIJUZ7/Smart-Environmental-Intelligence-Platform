@@ -1,0 +1,6 @@
+{
+  "name": "ECO-SENSE — Environmental Intelligence & Climate Analytics Platform",
+  "description": "Portfolio-quality environmental intelligence platform transforming air, water, and climate datasets into observatory-grade analytics, anomaly detection, and scientific field reports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

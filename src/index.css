@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@theme {
+  --font-heading: 'Barlow Condensed', sans-serif;
+  --font-body: 'IBM Plex Sans', sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+
+  --color-canvas: #F3F1E8;
+  --color-surface: #FFFEF9;
+  --color-ink: #24352D;
+  --color-secondary: #68756B;
+  --color-forest: #315C45;
+  --color-moss: #82966B;
+  --color-water: #477D92;
+  --color-ochre: #B78A4D;
+  --color-amber: #C77938;
+  --color-red: #B64D43;
+  --color-border: #D9DCCF;
+  --color-muted-green: #E5EBDD;
+}
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #F3F1E8;
+  color: #24352D;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, .font-heading {
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+code, pre, .font-mono, .tabular-nums {
+  font-family: 'IBM Plex Mono', monospace;
+  font-feature-settings: "tnum";
+}
+
+/* Custom subtle scrollbars for dense scientific observatory panels */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F3F1E8;
+}
+::-webkit-scrollbar-thumb {
+  background: #D9DCCF;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #82966B;
+}
